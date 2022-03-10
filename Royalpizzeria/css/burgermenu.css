@@ -1,0 +1,137 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+body{
+    background-image: url(../media/mae-mu-I7A_pHLcQK8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed;  */
+    color: white;
+}
+
+.menu-card-template{
+    font-size: 4rem;
+    font-family: cursive;
+    text-align: center;
+    padding: 4rem;
+}
+
+.burger-express-nonveg{
+    font-size: 3rem;
+    text-align: center;
+    padding: 0 2rem 5rem 2rem;
+    font-family: cursive;
+}
+
+.burger-menu-card{
+    width: 50%;
+    margin: 0px 15rem;
+    border-radius: 3rem;
+}
+
+.burger-name{
+    font-size: 2.5rem;
+    letter-spacing: 0.01rem;
+}
+
+.burger-name2{
+    font-size: 2.5rem;
+    letter-spacing: 0.01rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.burger-price{
+    font-size: 2.5rem;
+    letter-spacing: 0.01rem;
+    font-family: cursive;
+}
+
+.burger-menu-card-2{
+    width: 50%;
+    border-radius: 3rem;
+}
+
+.burger-express-veg{
+    font-size: 4rem;
+    text-align: center;
+    font-family: cursive;
+    padding: 5rem;
+}
+
+.burger-img img:hover{
+ transform: translateY(-5rem);
+    transition:  1s;
+}
+@media(max-width : 320px) {
+    .burger-name {
+        font-size: 1.5rem;
+        letter-spacing: 0.01rem;
+    }
+    .burger-price {
+        font-size: 1.5rem;
+        letter-spacing: 0.01rem;
+        font-family: cursive;
+    }
+    .menu-card-template {
+        font-size: 3rem;
+        font-family: cursive;
+        text-align: center;
+        padding: 4rem;
+    }
+    .burger-express-nonveg {
+        font-size: 2rem;
+        text-align: center;
+        padding: 0 2rem 5rem 2rem;
+        font-family: cursive;
+    }
+    .burger-name2 {
+        font-size: 1.5rem;
+        letter-spacing: 0.01rem;
+        color: #fff;
+        font-weight: 600;
+    }
+    .burger-menu-card {
+        width: 100%;
+        margin: 0px 15rem;
+        border-radius: 3rem;
+    }
+    .burger-menu-card-2 {
+        width: 87%;
+        border-radius: 3rem;
+    }
+   
+    
+}
+@media(max-width : 576px) {
+  
+    .burger-name {
+        font-size: 1.5rem;
+        letter-spacing: 0.01rem;
+    }
+    .burger-price {
+        font-size: 1.5rem;
+        letter-spacing: 0.01rem;
+        font-family: cursive;
+    }
+    .burger-name2 {
+        font-size: 1.5rem;
+        letter-spacing: 0.01rem;
+        color: #fff;
+        font-weight: 600;
+    }
+}
+@media(max-width : 768px){
+    .burger-menu-card {
+        width: 50%;
+        margin: 0px 1rem;
+        border-radius: 3rem;
+    }
+}
+

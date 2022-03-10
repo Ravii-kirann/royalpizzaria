@@ -1,0 +1,121 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+body{
+    background-image: url(../media/tyler-nix-a7zIxVCti3k-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed;  */
+    color: white;
+}
+
+.sandwich-express-nonveg ,.super-veg-crackles ,.crispy-Fried-Chicken
+,.big-saver-combos-contents,.demanding-combos-title{
+    font-size: 3rem;
+    /* text-align: center; */
+    padding: 0 2rem 5rem 2rem;
+    font-family: cursive;
+}
+
+.super-veg-crackles ,.crispy-Fried-Chicken ,.big-saver-combos-contents ,.demanding-combos-title{
+    padding: 5rem 0 ;
+}
+
+.combo-contents-display{
+    row-gap: 1rem;
+}
+
+/* .super-veg-crackles-content,.fried-chicken-contents,.big-saver-combos ,.{
+    padding: 0 5rem;
+}  */
+
+.sandwich-menu-card{
+    width: 50%;
+    margin: 0px 15rem;
+    border-radius: 3rem;
+}
+
+.sandwich-name ,.crackles-name ,.chicken-type ,.saver-combos ,.combos-on-demanding-ones{
+    font-size: 2.5rem;
+    letter-spacing: 0.01rem;
+}
+/* 
+.chicken-type p{
+    text-align: start;
+} */
+
+.sandwich-name-2{
+    font-size: 2.5rem;
+    letter-spacing: 0.01rem;
+    /* color: white; */
+    font-weight: 600;
+}
+
+.sandwich-price , .crackles-price ,.chicken-items-price ,.saver-combos-price ,.combos-on-demanding-ones-price{
+    font-size: 2.5rem;
+    letter-spacing: 0.01rem;
+    font-family: cursive;
+}
+
+.sandwich-menu-card-2{
+    width: 50%;
+    border-radius: 3rem;
+}
+
+.sandwich-express ,.sandwich-express-veg ,.crispy-Fried-Chicken ,.big-saver-combos-contents ,.demanding-combos-title{
+    font-size: 4rem;
+    text-align: center;
+    font-family: cursive;
+    padding: 5rem;
+}
+
+.sandwich-img img:hover{
+ transform: translateY(-5rem);
+    transition:  1s;
+}
+@media(max-width : 576px) {
+
+    .sandwich-name, .crackles-name, .chicken-type, .saver-combos, .combos-on-demanding-ones {
+        font-size: 1.5rem;
+        letter-spacing: 0.01rem;
+    }
+    .sandwich-express-nonveg, .super-veg-crackles, .crispy-Fried-Chicken, .big-saver-combos-contents, .demanding-combos-title {
+        font-size: 2rem;
+        /* text-align: center; */
+        padding: 0 2rem 5rem 2rem;
+        font-family: cursive;
+    }
+    .sandwich-express, .sandwich-express-veg, .crispy-Fried-Chicken, .big-saver-combos-contents, .demanding-combos-title {
+        font-size: 2rem;
+        text-align: center;
+        font-family: cursive;
+        padding: 5rem;
+    }
+    .sandwich-price, .crackles-price, .chicken-items-price, .saver-combos-price, .combos-on-demanding-ones-price {
+        font-size: 1.5rem;
+        letter-spacing: 0.01rem;
+        font-family: cursive;
+    }
+    .sandwich-name-2 {
+        font-size: 1.5rem;
+        letter-spacing: 0.01rem;
+        /* color: white; */
+        font-weight: 600;
+    }
+    .sandwich-menu-card {
+        width: 100%;
+        margin: 0px 15rem;
+        border-radius: 3rem;
+    }
+    .sandwich-menu-card-2 {
+        width: 80%;
+        border-radius: 3rem;
+    }
+}
+

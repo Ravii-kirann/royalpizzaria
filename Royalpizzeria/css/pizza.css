@@ -1,0 +1,129 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+body{
+    color: white;
+    background-image: url(../media/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pizza-img1 img:hover{
+    transform: translateY(-5rem);
+    transition:  1s;
+}
+
+
+.pizza-img2 img:hover{
+    transform: translateY(-5rem);
+    transition:  1s;
+}
+
+
+
+.menu-card-template{
+    font-size: 4rem;
+    font-family: cursive;
+    text-align: center;
+    padding: 4rem;
+}
+
+.pizza-inches-slices{
+    font-size: 3rem;
+    text-align: center;
+    padding: 0 2rem 5rem 2rem;
+    font-family: cursive;
+}
+
+.pizza-name{
+    font-size: 2rem;
+    letter-spacing: 0.01rem;
+}
+
+.pizza-price{
+    font-size: 2rem;
+    letter-spacing: 0.01rem;
+    font-family: cursive;
+}
+
+.pizza-menu-card{
+    width: 50%;
+    margin: 0px 15rem;
+    border-radius: 3rem;
+}
+
+.pizza-menu-card:hover{
+    background: yellow;
+    transform: scaleY(1rem);
+    transition-timing-function: ease;
+}
+.footer {
+    padding: 12.8rem 0;
+    border-top: 1px solid #eee;
+    background-image: url(../media/WhatsApp\ Image\ 2022-01-13\ at\ 5.09.45\ PM.jpeg);
+    column-gap: 2rem;
+}
+.grid--footer {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+.logo-col {
+    display: flex;
+    flex-direction: column;
+}  
+.footer-logo {
+    display: block;
+    margin-bottom: 3.2rem;
+}  
+.social-links {
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+}
+.footer-link:link, .footer-link:visited {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+    transition: all 0.3s;
+}
+@media(max-width : 320px) {
+    .pizza-menu-card {
+        width: 50%;
+        margin: 0px 2rem;
+        border-radius: 3rem;
+    }
+    .pizza-name {
+        font-size: 1rem;
+        letter-spacing: 0.01rem;
+    }
+    .pizza-price {
+        font-size: 1rem;
+        letter-spacing: 0.01rem;
+        font-family: cursive;
+    }
+    .pizza-inches-slices {
+        font-size: 1rem;
+        text-align: center;
+        padding: 0 2rem 5rem 2rem;
+        font-family: cursive;
+    }
+   
+    
+}
+@media(max-width : 576px) {
+    .pizza-menu-card {
+        width: 50%;
+        margin: 0px 1rem;
+        border-radius: 3rem;
+    }
+   
+}
+
+
+  

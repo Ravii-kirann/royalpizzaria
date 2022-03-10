@@ -1,0 +1,154 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+body {
+    background-image: url(../media/pmilk2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed;  */
+    color: white;
+}
+
+.milkshakes-title {
+    font-size: 3rem;
+    text-align: center;
+    padding: 0 2rem 5rem 2rem;
+    font-family: cursive;
+}
+
+.milkshakes-menu-card {
+    width: 50%;
+    margin: 0px 15rem;
+    border-radius: 3rem;
+}
+
+.milkshakes-item {
+    font-size: 2.5rem;
+    letter-spacing: 0.01rem;
+}
+
+.milkshake-price {
+    font-size: 2.5rem;
+    letter-spacing: 0.01rem;
+    font-family: cursive;
+}
+
+.milkshake-img img:hover {
+ transform: translateY(-5rem);
+    transition:  1s;
+}
+
+@media(max-width : 320px) {
+    
+    .milkshakes-item{
+        font-size: 1.5rem;
+
+    }
+
+    .milkshake-price {
+        font-size: 1.5rem;
+        letter-spacing: 0.01rem;
+        font-family: cursive;
+    }  
+    
+}
+@media(max-width : 576px) {
+
+    .milkshakes-item{
+        font-size: 1.5rem;
+
+    }
+
+    .milkshake-price {
+        font-size: 1.5rem;
+        letter-spacing: 0.01rem;
+        font-family: cursive;
+    }  
+    .milkshakes-menu-card {
+       width: 35%;
+       margin: 0px 15rem;
+       border-radius: 3rem;
+    }
+}
+@media(max-width : 768px) {
+
+    .milkshakes-item{
+        font-size: 1.5rem;
+
+    }
+
+    .milkshake-price {
+        font-size: 1.5rem;
+        letter-spacing: 0.01rem;
+        font-family: cursive;
+    }  
+    .milkshakes-menu-card {
+       width: 35%;
+       margin: 0px 1rem;
+       border-radius: 3rem;
+    }
+}
+@media(max-width : 992px) {
+
+    .milkshakes-item{
+        font-size: 1.5rem;
+
+    }
+
+    .milkshake-price {
+        font-size: 1.5rem;
+        letter-spacing: 0.01rem;
+        font-family: cursive;
+    }  
+    .milkshakes-menu-card {
+       width: 35%;
+       margin: 0px 1rem;
+       border-radius: 3rem;
+    }
+}
+@media(max-width : 1200px) {
+
+    .milkshakes-item{
+        font-size: 1.5rem;
+
+    }
+
+    .milkshake-price {
+        font-size: 1.5rem;
+        letter-spacing: 0.01rem;
+        font-family: cursive;
+    }  
+    .milkshakes-menu-card {
+       width: 35%;
+       margin: 0px 1rem;
+       border-radius: 3rem;
+    }
+}
+@media(max-width : 1400px) {
+
+    .milkshakes-item{
+        font-size: 1.5rem;
+
+    }
+
+    .milkshake-price {
+        font-size: 1.5rem;
+        letter-spacing: 0.01rem;
+        font-family: cursive;
+    }  
+    .milkshakes-menu-card {
+       width: 35%;
+       margin: 0px 1rem;
+       border-radius: 3rem;
+    }
+}
+
+
